@@ -1,0 +1,67 @@
+export const municipalities = [
+  {
+    id: 'm-demo-01',
+    name: 'Cogne',
+    province: 'AO',
+    region: "Valle d'Aosta",
+    lat: 45.6082,
+    lng: 7.3524,
+    status: 'demo',
+    joinedAt: 'In attesa di adesione ufficiale',
+    statement:
+      'Comune demo: disponibilita\' a valutare iniziative locali per la tutela dello stambecco e della biodiversita\' alpina.',
+    documentUrl: '#',
+  },
+  {
+    id: 'm-demo-02',
+    name: 'Valsavarenche',
+    province: 'AO',
+    region: "Valle d'Aosta",
+    lat: 45.5921,
+    lng: 7.2161,
+    status: 'in_valutazione',
+    joinedAt: 'In attesa di adesione ufficiale',
+    statement:
+      'Comune demo: percorso istituzionale in valutazione, con attenzione alla gestione faunistica responsabile.',
+    documentUrl: '#',
+  },
+  {
+    id: 'm-demo-03',
+    name: 'Bormio',
+    province: 'SO',
+    region: 'Lombardia',
+    lat: 46.4672,
+    lng: 10.3714,
+    status: 'demo',
+    joinedAt: 'In attesa di adesione ufficiale',
+    statement:
+      'Comune demo: interesse verso azioni di valorizzazione dello stambecco come patrimonio naturale alpino.',
+    documentUrl: '#',
+  },
+  {
+    id: 'm-demo-04',
+    name: 'Cortina d\'Ampezzo',
+    province: 'BL',
+    region: 'Veneto',
+    lat: 46.5405,
+    lng: 12.1357,
+    status: 'in_valutazione',
+    joinedAt: 'In attesa di adesione ufficiale',
+    statement:
+      'Comune demo: confronto tecnico in corso su tutela fauna, turismo naturalistico e equilibrio ecosistemico.',
+    documentUrl: '#',
+  },
+  {
+    id: 'm-demo-05',
+    name: 'Sestriere',
+    province: 'TO',
+    region: 'Piemonte',
+    lat: 44.9577,
+    lng: 6.8771,
+    status: 'demo',
+    joinedAt: 'In attesa di adesione ufficiale',
+    statement:
+      'Comune demo: disponibilita\' a collaborare su una rete territoriale orientata alla conservazione alpina.',
+    documentUrl: '#',
+  },
+];
